@@ -1,4 +1,4 @@
-package com.bank.bankapplication.dto;
+package com.bank.bankapplication.dto.response;
 
 public class LoginResponse {
 

@@ -1,9 +1,9 @@
 package com.bank.bankapplication.service;
 
-import com.bank.bankapplication.dto.LoginRequest;
-import com.bank.bankapplication.dto.LoginResponse;
-import com.bank.bankapplication.dto.RegisterRequest;
-import com.bank.bankapplication.dto.RegisterResponse;
+import com.bank.bankapplication.dto.request.LoginRequest;
+import com.bank.bankapplication.dto.response.LoginResponse;
+import com.bank.bankapplication.dto.request.RegisterRequest;
+import com.bank.bankapplication.dto.response.RegisterResponse;
 import com.bank.bankapplication.entity.User;
 import com.bank.bankapplication.exception.EmailAlreadyExistsException;
 import com.bank.bankapplication.exception.InvalidCredentialsException;
