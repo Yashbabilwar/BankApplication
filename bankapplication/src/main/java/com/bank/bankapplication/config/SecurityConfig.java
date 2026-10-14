@@ -1,5 +1,6 @@
-package com.bank.bankapplication.security;
+package com.bank.bankapplication.config;
 
+import com.bank.bankapplication.security.JwtAuthenticationFilter;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
